@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: c6114b73a6689b648b10af519a6f0e45
+guid: 3173e13dc09d2f340b6b952d19bdc9e1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -165668901869427220
-    second: boldpixelsx1_0
+      213: -1721741675983281166
+    second: opcoes121_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,30 +96,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: boldpixelsx1_0
+      name: opcoes121_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 145
-        height: 1565
+        width: 140
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ce56eb1f20d63bdf0800000000000000
-      internalID: -165668901869427220
+      spriteID: 2f3e70061152b18e0800000000000000
+      internalID: -1721741675983281166
       vertices: []
       indices: 
       edges: []
@@ -147,17 +134,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      boldpixelsx1_0: -165668901869427220
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 332078
-  packageName: BoldPixels
-  packageVersion: 1.5.0
-  assetPath: Assets/BoldPixels/Assets/font/boldpixelsx1.png
-  uploadId: 785910
