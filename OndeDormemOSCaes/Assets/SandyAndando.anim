@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Caminhada
+  m_Name: SandyAndando
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -22,24 +22,24 @@ AnimationClip:
     curve:
     - time: 0
       value: {fileID: 5773484755256356028, guid: 1515e252692a07449b4913926c820757, type: 3}
-    - time: 0.15
+    - time: 0.083333336
       value: {fileID: 5915804402141119386, guid: 1515e252692a07449b4913926c820757, type: 3}
-    - time: 0.28333333
+    - time: 0.16666667
       value: {fileID: -7695662000749647844, guid: 1515e252692a07449b4913926c820757, type: 3}
-    - time: 0.41666666
+    - time: 0.25
       value: {fileID: 7109107043926235403, guid: 1515e252692a07449b4913926c820757, type: 3}
-    - time: 0.5833333
+    - time: 0.33333334
       value: {fileID: -3169440448032181977, guid: 1515e252692a07449b4913926c820757, type: 3}
-    - time: 0.73333335
+    - time: 0.41666666
       value: {fileID: 2413589050714490403, guid: 1515e252692a07449b4913926c820757, type: 3}
-    - time: 0.9
+    - time: 0.5
       value: {fileID: 4434188608684056095, guid: 1515e252692a07449b4913926c820757, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
     script: {fileID: 0}
     flags: 2
-  m_SampleRate: 60
+  m_SampleRate: 12
   m_WrapMode: 0
   m_Bounds:
     m_Center: {x: 0, y: 0, z: 0}
@@ -68,7 +68,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.9166666
+    m_StopTime: 0.5833333
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0

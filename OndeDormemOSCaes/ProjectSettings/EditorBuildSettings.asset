@@ -11,6 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Dentro.unity
     guid: c74c6f993ac450644a8959e7235b216c
+  - enabled: 1
+    path: Assets/Scenes/Jogo.unity
+    guid: 126dd61a4a0298b4aa528ba58a874ad4
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
