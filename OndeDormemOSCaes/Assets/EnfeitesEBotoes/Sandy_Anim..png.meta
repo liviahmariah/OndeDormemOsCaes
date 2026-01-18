@@ -310,7 +310,14 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Sandy_Anim._0: 5773484755256356028
+      Sandy_Anim._1: 5915804402141119386
+      Sandy_Anim._2: -7695662000749647844
+      Sandy_Anim._3: 7109107043926235403
+      Sandy_Anim._4: -3169440448032181977
+      Sandy_Anim._5: 2413589050714490403
+      Sandy_Anim._6: 4434188608684056095
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
