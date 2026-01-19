@@ -141,6 +141,45 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -509,7 +548,23 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "T\xEDtulo 2_0": 9163914332367856097
+      "T\xEDtulo 2_1": -5417188042423124787
+      "T\xEDtulo 2_10": -7686005642723165527
+      "T\xEDtulo 2_11": -1213693796000726380
+      "T\xEDtulo 2_12": 330480934331552610
+      "T\xEDtulo 2_13": -6415194104733860625
+      "T\xEDtulo 2_14": -2485938509068823222
+      "T\xEDtulo 2_15": -7232619127137421218
+      "T\xEDtulo 2_2": -2732794367039870453
+      "T\xEDtulo 2_3": 5397496022603841771
+      "T\xEDtulo 2_4": 7275969499437436241
+      "T\xEDtulo 2_5": 2605280542808946267
+      "T\xEDtulo 2_6": -6096619766667030039
+      "T\xEDtulo 2_7": -4915804408055465367
+      "T\xEDtulo 2_8": 6130401516070293905
+      "T\xEDtulo 2_9": -3884398260096808135
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

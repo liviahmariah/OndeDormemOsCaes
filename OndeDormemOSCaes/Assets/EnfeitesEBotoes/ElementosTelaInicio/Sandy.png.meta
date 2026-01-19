@@ -162,6 +162,45 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -169,12 +208,12 @@ TextureImporter:
       name: Sandy_0
       rect:
         serializedVersion: 2
-        x: 25
-        y: 277
-        width: 100
-        height: 67
+        x: 38
+        y: 278
+        width: 73
+        height: 59
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -191,12 +230,12 @@ TextureImporter:
       name: Sandy_1
       rect:
         serializedVersion: 2
-        x: 57
-        y: 330
-        width: 7
-        height: 10
+        x: 58
+        y: 331
+        width: 5
+        height: 8
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -213,12 +252,12 @@ TextureImporter:
       name: Sandy_2
       rect:
         serializedVersion: 2
-        x: 25
-        y: 300
-        width: 14
-        height: 24
+        x: 26
+        y: 301
+        width: 12
+        height: 22
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -235,12 +274,12 @@ TextureImporter:
       name: Sandy_3
       rect:
         serializedVersion: 2
-        x: 97
-        y: 303
-        width: 24
-        height: 21
+        x: 98
+        y: 304
+        width: 22
+        height: 19
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -257,12 +296,12 @@ TextureImporter:
       name: Sandy_4
       rect:
         serializedVersion: 2
-        x: 26
-        y: 286
-        width: 8
-        height: 9
+        x: 27
+        y: 287
+        width: 6
+        height: 7
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -279,12 +318,12 @@ TextureImporter:
       name: Sandy_5
       rect:
         serializedVersion: 2
-        x: 33
-        y: 293
-        width: 8
-        height: 8
+        x: 34
+        y: 294
+        width: 6
+        height: 6
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -301,12 +340,12 @@ TextureImporter:
       name: Sandy_6
       rect:
         serializedVersion: 2
-        x: 109
-        y: 292
-        width: 9
-        height: 8
+        x: 110
+        y: 293
+        width: 7
+        height: 6
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -323,12 +362,12 @@ TextureImporter:
       name: Sandy_7
       rect:
         serializedVersion: 2
-        x: 42
-        y: 279
-        width: 6
-        height: 8
+        x: 43
+        y: 280
+        width: 4
+        height: 6
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -345,12 +384,12 @@ TextureImporter:
       name: Sandy_8
       rect:
         serializedVersion: 2
-        x: 37
-        y: 142
-        width: 75
-        height: 61
+        x: 38
+        y: 143
+        width: 73
+        height: 59
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -367,12 +406,12 @@ TextureImporter:
       name: Sandy_9
       rect:
         serializedVersion: 2
-        x: 58
-        y: 194
-        width: 7
-        height: 10
+        x: 59
+        y: 195
+        width: 5
+        height: 8
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -389,12 +428,12 @@ TextureImporter:
       name: Sandy_10
       rect:
         serializedVersion: 2
-        x: 25
-        y: 165
-        width: 14
-        height: 24
+        x: 26
+        y: 166
+        width: 12
+        height: 22
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -411,12 +450,12 @@ TextureImporter:
       name: Sandy_11
       rect:
         serializedVersion: 2
-        x: 97
-        y: 168
-        width: 24
-        height: 21
+        x: 98
+        y: 169
+        width: 22
+        height: 19
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -433,12 +472,12 @@ TextureImporter:
       name: Sandy_12
       rect:
         serializedVersion: 2
-        x: 26
-        y: 151
-        width: 8
-        height: 9
+        x: 27
+        y: 152
+        width: 6
+        height: 7
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -455,12 +494,12 @@ TextureImporter:
       name: Sandy_13
       rect:
         serializedVersion: 2
-        x: 33
-        y: 158
-        width: 8
-        height: 8
+        x: 34
+        y: 159
+        width: 6
+        height: 6
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -477,12 +516,12 @@ TextureImporter:
       name: Sandy_14
       rect:
         serializedVersion: 2
-        x: 109
-        y: 157
-        width: 9
-        height: 8
+        x: 110
+        y: 158
+        width: 7
+        height: 6
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -499,12 +538,12 @@ TextureImporter:
       name: Sandy_15
       rect:
         serializedVersion: 2
-        x: 42
-        y: 144
-        width: 6
-        height: 8
+        x: 43
+        y: 145
+        width: 4
+        height: 6
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -521,12 +560,12 @@ TextureImporter:
       name: Sandy_16
       rect:
         serializedVersion: 2
-        x: 25
-        y: 30
-        width: 14
-        height: 24
+        x: 26
+        y: 31
+        width: 12
+        height: 22
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -543,12 +582,12 @@ TextureImporter:
       name: Sandy_17
       rect:
         serializedVersion: 2
-        x: 37
-        y: 7
-        width: 75
-        height: 61
+        x: 38
+        y: 8
+        width: 73
+        height: 59
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -565,12 +604,12 @@ TextureImporter:
       name: Sandy_18
       rect:
         serializedVersion: 2
-        x: 97
-        y: 33
-        width: 24
-        height: 21
+        x: 98
+        y: 34
+        width: 22
+        height: 19
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -587,12 +626,12 @@ TextureImporter:
       name: Sandy_19
       rect:
         serializedVersion: 2
-        x: 26
-        y: 16
-        width: 8
-        height: 9
+        x: 27
+        y: 17
+        width: 6
+        height: 7
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -609,12 +648,12 @@ TextureImporter:
       name: Sandy_20
       rect:
         serializedVersion: 2
-        x: 33
-        y: 23
-        width: 8
-        height: 8
+        x: 34
+        y: 24
+        width: 6
+        height: 6
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -631,12 +670,12 @@ TextureImporter:
       name: Sandy_21
       rect:
         serializedVersion: 2
-        x: 109
-        y: 22
-        width: 9
-        height: 8
+        x: 110
+        y: 23
+        width: 7
+        height: 6
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -653,12 +692,12 @@ TextureImporter:
       name: Sandy_22
       rect:
         serializedVersion: 2
-        x: 42
-        y: 9
-        width: 6
-        height: 8
+        x: 43
+        y: 10
+        width: 4
+        height: 6
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []

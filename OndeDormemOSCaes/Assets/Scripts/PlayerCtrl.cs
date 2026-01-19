@@ -1,26 +1,22 @@
 using UnityEngine;
 
-public class PlayerCtrl : MonoBehaviour
+public class PlayerMovement : MonoBehaviour
 {
-    public float moveSpeed = 5f;
-
-    private Rigidbody2D rb;
-    private float speedX;
-    private float speedY;
+    public float speed = 3f;
+    Animator animator;
 
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
     }
 
     void Update()
     {
-        speedX = Input.GetAxisRaw("Horizontal");
-        speedY = Input.GetAxisRaw("Vertical");
-    }
+        float vertical = Input.GetAxisRaw("Vestical");
 
-    void FixedUpdate()
-    {
-        rb.linearVelocity = new Vector2(speedX * moveSpeed, speedY * moveSpeed);
+        animator.SetFloat("Vestical", vertical);
+
+        Vector2 movement = new Vector2(0, vertical);
+        transform.Translate(movement * speed * Time.deltaTime);
     }
 }

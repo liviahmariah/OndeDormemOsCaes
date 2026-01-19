@@ -228,6 +228,45 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -1234,7 +1273,52 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      sprite_19_0: -365044385641360468
+      sprite_19_1: 7352078659993928307
+      sprite_19_10: -3200596024116092090
+      sprite_19_11: -7534715570480290911
+      sprite_19_12: 8422259089949915702
+      sprite_19_13: 5165142466995178035
+      sprite_19_14: -2381929465577323381
+      sprite_19_15: 4797278451946929281
+      sprite_19_16: -5342659392137894574
+      sprite_19_17: -5029691441002907303
+      sprite_19_18: -5654150404431369217
+      sprite_19_19: 1318794929900904644
+      sprite_19_2: -3632735123708932946
+      sprite_19_20: -2368133257670510893
+      sprite_19_21: -7251949016479797564
+      sprite_19_22: -2920283280103635865
+      sprite_19_23: -2751223859999583233
+      sprite_19_24: 8068876413555094570
+      sprite_19_25: -49126130586937318
+      sprite_19_26: 3965085882879392960
+      sprite_19_27: -6699986767123437140
+      sprite_19_28: -5701438307119343745
+      sprite_19_29: -4172051822656191255
+      sprite_19_3: -1508972162047210535
+      sprite_19_30: -9064807583696271991
+      sprite_19_31: 324430407481735601
+      sprite_19_32: -6142845401459092140
+      sprite_19_33: 4189540577275657842
+      sprite_19_34: -7932479855710231196
+      sprite_19_35: 2987702707655632063
+      sprite_19_36: 2784434371149787890
+      sprite_19_37: 7898486120126558468
+      sprite_19_38: 2517088396334537524
+      sprite_19_39: 3205022965889920918
+      sprite_19_4: -6785955076451143781
+      sprite_19_40: 8165333419355736542
+      sprite_19_41: -4217078703229168274
+      sprite_19_42: -7933301946013067575
+      sprite_19_43: 314540829548503073
+      sprite_19_44: 8787091808212774047
+      sprite_19_5: -1897415628316378785
+      sprite_19_6: -1406040153843927556
+      sprite_19_7: 6816131622630848983
+      sprite_19_8: -1644679073265953330
+      sprite_19_9: -1696211768515714102
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
