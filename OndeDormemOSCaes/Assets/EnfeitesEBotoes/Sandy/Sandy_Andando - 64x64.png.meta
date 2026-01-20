@@ -1,55 +1,25 @@
 fileFormatVersion: 2
-guid: 1b670195afbff64428eed4206ca9ca22
+guid: 9231e6faf252aa340ae5a42023359652
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -9198962218854361340
-    second: Olhos de cobra_0
+      213: -1058214486936272516
+    second: Sandy_Andando - 64x64_0
   - first:
-      213: 6120754517841392747
-    second: Olhos de cobra_1
+      213: 2005117812795181405
+    second: Sandy_Andando - 64x64_1
   - first:
-      213: 2850153637068416754
-    second: Olhos de cobra_2
+      213: -8091610445299144732
+    second: Sandy_Andando - 64x64_2
   - first:
-      213: 56011485111349834
-    second: Olhos de cobra_3
+      213: -4407633919067605700
+    second: Sandy_Andando - 64x64_3
   - first:
-      213: 8535989413792328821
-    second: Olhos de cobra_4
+      213: 1087566888588961139
+    second: Sandy_Andando - 64x64_4
   - first:
-      213: -1436469018191265638
-    second: Olhos de cobra_5
-  - first:
-      213: 7269154933553632335
-    second: Olhos de cobra_6
-  - first:
-      213: -2153127703377701405
-    second: Olhos de cobra_7
-  - first:
-      213: 615757914896206708
-    second: Olhos de cobra_8
-  - first:
-      213: 3836728819987817757
-    second: Olhos de cobra_9
-  - first:
-      213: -3554476245326970033
-    second: Olhos de cobra_10
-  - first:
-      213: 1674512901701760923
-    second: Olhos de cobra_11
-  - first:
-      213: -5772315360946242143
-    second: Olhos de cobra_12
-  - first:
-      213: 7920640348939021727
-    second: Olhos de cobra_13
-  - first:
-      213: -6277283602466217497
-    second: Olhos de cobra_14
-  - first:
-      213: 8196347555317392024
-    second: Olhos de cobra_15
+      213: -1058491047901728657
+    second: Sandy_Andando - 64x64_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -171,14 +141,14 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Olhos de cobra_0
+      name: Sandy_Andando - 64x64_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 405
-        width: 240
-        height: 135
-      alignment: 9
+        x: 6
+        y: 134
+        width: 55
+        height: 51
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
@@ -186,162 +156,118 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 40752f2a998b65080800000000000000
-      internalID: -9198962218854361340
+      spriteID: c71cdf1e7877051f0800000000000000
+      internalID: -1058214486936272516
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Olhos de cobra_1
+      name: Sandy_Andando - 64x64_1
       rect:
         serializedVersion: 2
-        x: 240
-        y: 405
-        width: 240
-        height: 135
-      alignment: 9
+        x: 68
+        y: 134
+        width: 56
+        height: 49
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 7998b6fe5b704f94da83145cc520ab2f
-      internalID: 308729971
+      spriteID: d590774f60c93db10800000000000000
+      internalID: 2005117812795181405
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Olhos de cobra_2
+      name: Sandy_Andando - 64x64_2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 270
-        width: 240
-        height: 135
-      alignment: 9
+        x: 1
+        y: 70
+        width: 61
+        height: 50
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 901ee51b907cb504c835787082a4e63b
-      internalID: 712930664
+      spriteID: 4e7aa13db23d4bf80800000000000000
+      internalID: -8091610445299144732
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Olhos de cobra_3
+      name: Sandy_Andando - 64x64_3
       rect:
         serializedVersion: 2
-        x: 240
-        y: 270
-        width: 240
-        height: 135
-      alignment: 9
+        x: 64
+        y: 70
+        width: 63
+        height: 51
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 78199e94d9a18b444a78ba580b8421fd
-      internalID: 1450630930
+      spriteID: c353302ad40f4d2c0800000000000000
+      internalID: -4407633919067605700
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Olhos de cobra_4
+      name: Sandy_Andando - 64x64_4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 135
-        width: 240
-        height: 135
-      alignment: 9
+        x: 4
+        y: 7
+        width: 59
+        height: 49
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: e2e0bda290350d74fa91c41e7762a691
-      internalID: 1596919995
+      spriteID: 37562dfa250d71f00800000000000000
+      internalID: 1087566888588961139
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Olhos de cobra_5
+      name: Sandy_Andando - 64x64_5
       rect:
         serializedVersion: 2
-        x: 240
-        y: 135
-        width: 240
-        height: 135
-      alignment: 9
+        x: 69
+        y: 7
+        width: 57
+        height: 50
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: fd57c10c8c04581428d48e2b644feebb
-      internalID: -2064823681
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Olhos de cobra_6
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 240
-        height: 135
-      alignment: 9
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d618fd7619a5dff42a08ad254c416a20
-      internalID: -158599274
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Olhos de cobra_7
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 0
-        width: 240
-        height: 135
-      alignment: 9
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3a329c9e028da3346946341058ee9c48
-      internalID: 1423923148
+      spriteID: f60f2e3000c7f41f0800000000000000
+      internalID: -1058491047901728657
       vertices: []
       indices: 
       edges: []
@@ -350,7 +276,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 997f3a9156937c642b3f5d9e2c54eaf3
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -360,14 +286,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Olhos de cobra_0: -9198962218854361340
-      Olhos de cobra_1: 308729971
-      Olhos de cobra_2: 712930664
-      Olhos de cobra_3: 1450630930
-      Olhos de cobra_4: 1596919995
-      Olhos de cobra_5: -2064823681
-      Olhos de cobra_6: -158599274
-      Olhos de cobra_7: 1423923148
+      Sandy_Andando - 64x64_0: -1058214486936272516
+      Sandy_Andando - 64x64_1: 2005117812795181405
+      Sandy_Andando - 64x64_2: -8091610445299144732
+      Sandy_Andando - 64x64_3: -4407633919067605700
+      Sandy_Andando - 64x64_4: 1087566888588961139
+      Sandy_Andando - 64x64_5: -1058491047901728657
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

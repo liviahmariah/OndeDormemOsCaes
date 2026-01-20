@@ -1,16 +1,16 @@
 fileFormatVersion: 2
-guid: 7d908bc277455084ca98660a47ed8bcd
+guid: cfbf3c6813f89eb49b5d31c9ef5d0397
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1158606953414260759
-    second: Sandy_IDLE - 512X512_0
+      213: 1135506762256886881
+    second: Sandy_IDLE - 64X64_0
   - first:
-      213: -3683192500885518866
-    second: Sandy_IDLE - 512X512_1
+      213: 6550846289891363574
+    second: Sandy_IDLE - 64X64_1
   - first:
-      213: 681948100839682145
-    second: Sandy_IDLE - 512X512_2
+      213: -6140476016137385705
+    second: Sandy_IDLE - 64X64_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -103,19 +103,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -145,13 +132,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Sandy_IDLE - 512X512_0
+      name: Sandy_IDLE - 64X64_0
       rect:
         serializedVersion: 2
-        x: 15
-        y: 583
-        width: 458
-        height: 370
+        x: 1
+        y: 72
+        width: 59
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -160,20 +147,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9e7027b4d1dcbefe0800000000000000
-      internalID: -1158606953414260759
+      spriteID: 16c2064526122cf00800000000000000
+      internalID: 1135506762256886881
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sandy_IDLE - 512X512_1
+      name: Sandy_IDLE - 64X64_1
       rect:
         serializedVersion: 2
-        x: 543
-        y: 583
-        width: 450
-        height: 354
+        x: 67
+        y: 72
+        width: 58
+        height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,20 +169,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ee506515feba2ecc0800000000000000
-      internalID: -3683192500885518866
+      spriteID: 6fa09272ef749ea50800000000000000
+      internalID: 6550846289891363574
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sandy_IDLE - 512X512_2
+      name: Sandy_IDLE - 64X64_2
       rect:
         serializedVersion: 2
-        x: 39
-        y: 71
-        width: 458
-        height: 354
+        x: 4
+        y: 8
+        width: 59
+        height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -204,8 +191,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1603dc14f24c67900800000000000000
-      internalID: 681948100839682145
+      spriteID: 7194352d895a8caa0800000000000000
+      internalID: -6140476016137385705
       vertices: []
       indices: 
       edges: []
@@ -224,9 +211,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Sandy_IDLE - 512X512_0: -1158606953414260759
-      Sandy_IDLE - 512X512_1: -3683192500885518866
-      Sandy_IDLE - 512X512_2: 681948100839682145
+      Sandy_IDLE - 64X64_0: 1135506762256886881
+      Sandy_IDLE - 64X64_1: 6550846289891363574
+      Sandy_IDLE - 64X64_2: -6140476016137385705
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
