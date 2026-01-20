@@ -1,10 +1,55 @@
 fileFormatVersion: 2
-guid: 7393887e49c97cc48be9b65dcffbbead
+guid: 1b670195afbff64428eed4206ca9ca22
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5040231431885482445
-    second: "Tela Inicial - Onde dormem os c\xE3es_0"
+      213: -9198962218854361340
+    second: Olhos de cobra_0
+  - first:
+      213: 6120754517841392747
+    second: Olhos de cobra_1
+  - first:
+      213: 2850153637068416754
+    second: Olhos de cobra_2
+  - first:
+      213: 56011485111349834
+    second: Olhos de cobra_3
+  - first:
+      213: 8535989413792328821
+    second: Olhos de cobra_4
+  - first:
+      213: -1436469018191265638
+    second: Olhos de cobra_5
+  - first:
+      213: 7269154933553632335
+    second: Olhos de cobra_6
+  - first:
+      213: -2153127703377701405
+    second: Olhos de cobra_7
+  - first:
+      213: 615757914896206708
+    second: Olhos de cobra_8
+  - first:
+      213: 3836728819987817757
+    second: Olhos de cobra_9
+  - first:
+      213: -3554476245326970033
+    second: Olhos de cobra_10
+  - first:
+      213: 1674512901701760923
+    second: Olhos de cobra_11
+  - first:
+      213: -5772315360946242143
+    second: Olhos de cobra_12
+  - first:
+      213: 7920640348939021727
+    second: Olhos de cobra_13
+  - first:
+      213: -6277283602466217497
+    second: Olhos de cobra_14
+  - first:
+      213: 8196347555317392024
+    second: Olhos de cobra_15
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -97,19 +142,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -139,13 +171,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "Tela Inicial - Onde dormem os c\xE3es_0"
+      name: Olhos de cobra_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 960
-        height: 1080
+        width: 480
+        height: 540
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,8 +186,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 33615bc87308d0ab0800000000000000
-      internalID: -5040231431885482445
+      spriteID: 40752f2a998b65080800000000000000
+      internalID: -9198962218854361340
       vertices: []
       indices: 
       edges: []
@@ -164,7 +196,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 997f3a9156937c642b3f5d9e2c54eaf3
     internalID: 0
     vertices: []
     indices: 
@@ -174,7 +206,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      "Tela Inicial - Onde dormem os c\xE3es_0": -5040231431885482445
+      Olhos de cobra_0: -9198962218854361340
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

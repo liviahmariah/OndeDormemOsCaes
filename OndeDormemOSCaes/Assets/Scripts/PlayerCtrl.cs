@@ -12,9 +12,9 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        float vertical = Input.GetAxisRaw("Vestical");
+        float vertical = Input.GetAxisRaw("Vertical");
 
-        animator.SetFloat("Vestical", vertical);
+        animator.SetFloat("Vertical", vertical);
 
         Vector2 movement = new Vector2(0, vertical);
         transform.Translate(movement * speed * Time.deltaTime);
