@@ -2,33 +2,27 @@ using UnityEngine;
 
 public class PlayerHealth : MonoBehaviour
 {
-    public int vidaMaxima = 5;
+    public int vidaMaxima = 3;
     public int vidaAtual;
 
-    public LifeHUD lifeHUD;
+    public LifeHUD hud;
 
     void Start()
     {
         vidaAtual = vidaMaxima;
-        lifeHUD.AtualizarVida(vidaAtual);
+        hud.AtualizarVida(vidaAtual);
     }
 
     public void TomarDano(int dano)
     {
         vidaAtual -= dano;
+        if (vidaAtual < 0) vidaAtual = 0;
 
-        if (vidaAtual < 0)
-            vidaAtual = 0;
+        hud.AtualizarVida(vidaAtual);
 
-        lifeHUD.AtualizarVida(vidaAtual);
-
-        void Update()
+        if (vidaAtual == 0)
         {
-            if (Input.GetKeyDown(KeyCode.H))
-            {
-                TomarDano(1);
-            }
+            Debug.Log("Game Over");
         }
-
     }
 }

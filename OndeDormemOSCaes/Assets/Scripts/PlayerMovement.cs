@@ -1,28 +1,15 @@
 using UnityEngine;
 
-public class MoveSandy : MonoBehaviour
+public class PlayerMovement : MonoBehaviour
 {
-    Animator anim;
-
-    void Start() { anim = GetComponent<Animator>(); }
+    public float speed = 5f;
 
     void Update()
     {
-        float valX = 0f, valY = 0f;
+        float h = Input.GetAxisRaw("Horizontal");
+        float v = Input.GetAxisRaw("Vertical");
 
-        if (Input.GetKey(KeyCode.W)) valY = 3f;
-        if (Input.GetKey(KeyCode.S)) valY = -3f;
-        if (Input.GetKey(KeyCode.D)) valX = 3f;
-        if (Input.GetKey(KeyCode.A)) valX = -3f;
-
-        // Movimento
-        transform.position += new Vector3(valX, valY, 0) * 0.1f;
-
-        // Flip esquerda/direita
-        if (valX != 0) transform.localScale = new Vector3(valX, 3f, 1f);
-
-        // MANDA pro Animator
-        anim.SetFloat("ValX", valX);
-        anim.SetFloat("ValY", valY);
+        Vector3 movimento = new Vector3(h, v, 0);
+        transform.position += movimento * speed * Time.deltaTime;
     }
 }

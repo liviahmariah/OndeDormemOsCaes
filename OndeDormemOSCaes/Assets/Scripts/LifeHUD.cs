@@ -8,10 +8,7 @@ public class LifeHUD : MonoBehaviour
     {
         for (int i = 0; i < coracoes.Length; i++)
         {
-            if (i < vidaAtual)
-                coracoes[i].SetActive(true);
-            else
-                coracoes[i].SetActive(false);
+            coracoes[i].SetActive(i < vidaAtual);
         }
     }
 }
