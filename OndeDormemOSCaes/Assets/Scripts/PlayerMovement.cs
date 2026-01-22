@@ -9,7 +9,7 @@ public class PlayerMovement : MonoBehaviour
         float h = Input.GetAxisRaw("Horizontal");
         float v = Input.GetAxisRaw("Vertical");
 
-        Vector3 movimento = new Vector3(h, v, 0);
-        transform.position += movimento * speed * Time.deltaTime;
+        Vector3 move = new Vector3(h, v, 0);
+        transform.position += move * speed * Time.deltaTime;
     }
 }

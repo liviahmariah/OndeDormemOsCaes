@@ -2,17 +2,14 @@ using UnityEngine;
 
 public class Item : MonoBehaviour
 {
-    public string nomeItem;
+    public Sprite spriteItem;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
-            Debug.Log("Coletou: " + nomeItem);
+            FindObjectOfType<InventoryHUD>().AdicionarItem(spriteItem);
             Destroy(gameObject);
-
-            other.GetComponent<Inventory>().AdicionarItem(nomeItem);
-
         }
     }
 }
