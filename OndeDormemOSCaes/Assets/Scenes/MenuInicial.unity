@@ -1433,8 +1433,8 @@ Transform:
   m_GameObject: {fileID: 703036651}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.13, y: -0.8205, z: -2461.5}
-  m_LocalScale: {x: 49.653015, y: 49.986652, z: 49.986652}
+  m_LocalPosition: {x: -0.68, y: -0.8205, z: -2461.5}
+  m_LocalScale: {x: 51.65403, y: 49.986652, z: 49.986652}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1259977557}
@@ -7503,7 +7503,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c33507ac34e6bfa46aced1573f71a106, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: Dentro
+  sceneName: Cutscene
 --- !u!4 &1778452052
 Transform:
   m_ObjectHideFlags: 0
