@@ -1,14 +1,21 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class LifeHUD : MonoBehaviour
 {
-    public GameObject[] coracoes;
+    public static LifeHUD instance;
+    public Image[] coracoes;
 
-    public void AtualizarVida(int vidaAtual)
+    void Awake()
+    {
+        instance = this;
+    }
+
+    public void AtualizarVida(int vida)
     {
         for (int i = 0; i < coracoes.Length; i++)
         {
-            coracoes[i].SetActive(i < vidaAtual);
+            coracoes[i].enabled = i < vida;
         }
     }
 }
