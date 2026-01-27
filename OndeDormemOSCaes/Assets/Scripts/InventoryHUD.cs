@@ -8,25 +8,7 @@ public class InventoryHUD : MonoBehaviour
 
     public void AdicionarItem(Sprite spriteItem)
     {
-        if (spriteItem == null)
-        {
-            Debug.LogError("Sprite do item está NULL!");
-            return;
-        }
-
-        if (slots.Length == 0)
-        {
-            Debug.LogError("Slots NÃO atribuídos!");
-            return;
-        }
-
-        if (slotAtual >= slots.Length)
-        {
-            Debug.Log("Inventário cheio!");
-            return;
-        }
-
-        Debug.Log("Adicionando item ao slot " + slotAtual);
+        if (slotAtual >= slots.Length) return;
 
         slots[slotAtual].sprite = spriteItem;
         slots[slotAtual].enabled = true;

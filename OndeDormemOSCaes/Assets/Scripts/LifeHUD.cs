@@ -1,10 +1,9 @@
 using UnityEngine;
-using UnityEngine.UI;
 
 public class LifeHUD : MonoBehaviour
 {
     public static LifeHUD instance;
-    public Image[] coracoes;
+    public GameObject[] coracoes;
 
     void Awake()
     {
@@ -15,7 +14,7 @@ public class LifeHUD : MonoBehaviour
     {
         for (int i = 0; i < coracoes.Length; i++)
         {
-            coracoes[i].enabled = i < vida;
+            coracoes[i].SetActive(i < vida);
         }
     }
 }

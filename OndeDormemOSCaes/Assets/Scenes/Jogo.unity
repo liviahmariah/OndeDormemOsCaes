@@ -207,7 +207,7 @@ Transform:
   m_GameObject: {fileID: 53992831}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 1.53, y: -0.62, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -412,8 +412,8 @@ Transform:
   m_GameObject: {fileID: 98941273}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.5381, y: -0.7467, z: 0}
-  m_LocalScale: {x: 0.6438, y: 0.6438, z: 0.6438}
+  m_LocalPosition: {x: -2.8449, y: -1.5989, z: 0}
+  m_LocalScale: {x: 0.970271, y: 0.970271, z: 0.970271}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -429,7 +429,7 @@ GameObject:
   - component: {fileID: 434708344}
   - component: {fileID: 434708345}
   m_Layer: 0
-  m_Name: "Cora\xE7\xE3oHUD_0 (1)"
+  m_Name: "Cora\xE7\xE3o1"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -444,8 +444,8 @@ Transform:
   m_GameObject: {fileID: 434708343}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 17, y: -5, z: -4950}
-  m_LocalScale: {x: 37.4, y: 37.4, z: 37.4}
+  m_LocalPosition: {x: 14, y: -3, z: -4950}
+  m_LocalScale: {x: 31.790003, y: 31.790003, z: 31.790003}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1561527123}
@@ -491,9 +491,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingLayerID: -820522763
+  m_SortingLayer: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: -132999374, guid: 0dc2a92b17222f54cb01d39311d9e033, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -516,7 +516,7 @@ GameObject:
   - component: {fileID: 449974494}
   - component: {fileID: 449974495}
   m_Layer: 0
-  m_Name: "Cora\xE7\xE3oHUD_0"
+  m_Name: "Cora\xE7\xE3o2"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -531,8 +531,8 @@ Transform:
   m_GameObject: {fileID: 449974493}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -65, y: -1, z: -4950}
-  m_LocalScale: {x: 37.4, y: 37.4, z: 37.4}
+  m_LocalPosition: {x: -48.500008, y: -2.600006, z: -4950}
+  m_LocalScale: {x: 31.79, y: 31.79, z: 31.79}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1561527123}
@@ -578,9 +578,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingLayerID: -820522763
+  m_SortingLayer: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: -132999374, guid: 0dc2a92b17222f54cb01d39311d9e033, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -665,7 +665,7 @@ Transform:
   m_GameObject: {fileID: 740965422}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 1.53, y: -0.62, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -893,7 +893,7 @@ GameObject:
   - component: {fileID: 777130353}
   - component: {fileID: 777130354}
   m_Layer: 0
-  m_Name: "Cora\xE7\xE3oHUD_0 (2)"
+  m_Name: "Cora\xE7\xE3o3"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -908,8 +908,8 @@ Transform:
   m_GameObject: {fileID: 777130352}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 102, y: -5, z: -4950}
-  m_LocalScale: {x: 37.4, y: 37.4, z: 37.4}
+  m_LocalPosition: {x: 74.2, y: -2.9, z: -4950}
+  m_LocalScale: {x: 31.790003, y: 31.790003, z: 31.790003}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1561527123}
@@ -955,9 +955,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingLayerID: -820522763
+  m_SortingLayer: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: -132999374, guid: 0dc2a92b17222f54cb01d39311d9e033, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1143,8 +1143,8 @@ Transform:
   m_GameObject: {fileID: 993303562}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.7, y: 2.42, z: 0}
-  m_LocalScale: {x: 0.6042692, y: 0.6042692, z: 0.6042692}
+  m_LocalPosition: {x: 5.7961, y: -0.007, z: 0}
+  m_LocalScale: {x: 0.90543693, y: 0.90543693, z: 0.90543693}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1334,7 +1334,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -312, y: -132}
+  m_AnchoredPosition: {x: -309.61, y: -146.97}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1121384006
@@ -1386,7 +1386,7 @@ GameObject:
   - component: {fileID: 1139842772}
   - component: {fileID: 1139842773}
   m_Layer: 0
-  m_Name: "Cora\xE7\xE3oHUD_0 (3)"
+  m_Name: "Cora\xE7\xE3o4"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1401,8 +1401,8 @@ Transform:
   m_GameObject: {fileID: 1139842771}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 180, y: -7, z: -4950}
-  m_LocalScale: {x: 37.4, y: 37.4, z: 37.4}
+  m_LocalPosition: {x: 135.3, y: -3.7, z: -4950}
+  m_LocalScale: {x: 31.790003, y: 31.790003, z: 31.790003}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1561527123}
@@ -1448,9 +1448,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingLayerID: -820522763
+  m_SortingLayer: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: -132999374, guid: 0dc2a92b17222f54cb01d39311d9e033, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1496,7 +1496,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -312, y: 82}
+  m_AnchoredPosition: {x: -241, y: 63}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1211640623
@@ -1585,7 +1585,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -1605,7 +1605,7 @@ Canvas:
   m_GameObject: {fileID: 1217186388}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 1
+  m_RenderMode: 0
   m_Camera: {fileID: 53992833}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
@@ -1674,8 +1674,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -312, y: -24.999998}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: -241, y: -57.042}
+  m_SizeDelta: {x: 79.8559, y: 79.8559}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1247857901
 MonoBehaviour:
@@ -1751,7 +1751,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -123, y: -41}
+  m_AnchoredPosition: {x: -47.203796, y: -71.714806}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1352910123
@@ -1853,8 +1853,8 @@ Transform:
   m_GameObject: {fileID: 1540591826}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.74, y: 3.48, z: 0}
-  m_LocalScale: {x: 0.6042692, y: 0.6042692, z: 0.6042692}
+  m_LocalPosition: {x: 5.856, y: 1.5813, z: 0}
+  m_LocalScale: {x: 0.90543693, y: 0.90543693, z: 0.90543693}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -2001,8 +2001,8 @@ Transform:
   m_GameObject: {fileID: 1559139040}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.79, y: 1.47, z: 0}
-  m_LocalScale: {x: 0.6042692, y: 0.6042692, z: 0.6042692}
+  m_LocalPosition: {x: 5.9309, y: -1.4305, z: 0}
+  m_LocalScale: {x: 0.90543693, y: 0.90543693, z: 0.90543693}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -2077,6 +2077,7 @@ GameObject:
   - component: {fileID: 1561527123}
   - component: {fileID: 1561527125}
   - component: {fileID: 1561527124}
+  - component: {fileID: 1561527126}
   m_Layer: 5
   m_Name: VidaHUD
   m_TagString: Untagged
@@ -2092,20 +2093,20 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1561527122}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -1084.62}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 449974494}
   - {fileID: 434708344}
+  - {fileID: 449974494}
   - {fileID: 777130353}
   - {fileID: 1139842772}
   m_Father: {fileID: 1217186392}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -274, y: 210}
-  m_SizeDelta: {x: 448.57, y: 100}
+  m_AnchoredPosition: {x: -195.02919, y: 164.79001}
+  m_SizeDelta: {x: 337.2216, y: 75.179}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1561527124
 MonoBehaviour:
@@ -2145,6 +2146,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1561527122}
   m_CullTransparentMesh: 1
+--- !u!114 &1561527126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1561527122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a088ff03462e70e48a42c6a2b70fd47d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coracoes:
+  - {fileID: 777130352}
+  - {fileID: 434708343}
+  - {fileID: 449974493}
+  - {fileID: 1139842771}
 --- !u!1 &2094594690
 GameObject:
   m_ObjectHideFlags: 0
@@ -2317,8 +2335,8 @@ Transform:
   m_GameObject: {fileID: 2094594690}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.5, y: 1.58, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 1.4902, y: -3.0298, z: 0}
+  m_LocalScale: {x: 1.2804, y: 1.2804, z: 1.2804}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
