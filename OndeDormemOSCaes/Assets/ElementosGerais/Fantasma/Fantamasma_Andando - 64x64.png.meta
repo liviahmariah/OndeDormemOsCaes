@@ -1,34 +1,40 @@
 fileFormatVersion: 2
-guid: d86769c8379c19f45b211cf0a80dfb5d
+guid: de399bcb877c1284ebf89d962003dd38
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 236585519149221837
-    second: UIII_0
+      213: 2835069490714806010
+    second: Fantamasma_Andando - 64x64_0
   - first:
-      213: 1468170330238189707
-    second: UIII_1
+      213: 6927538736891942581
+    second: Fantamasma_Andando - 64x64_1
   - first:
-      213: 3345583253873078141
-    second: UIII_2
+      213: -2522444832269206848
+    second: Fantamasma_Andando - 64x64_2
   - first:
-      213: -979480095505526914
-    second: UIII_3
+      213: -2599483227255951986
+    second: Fantamasma_Andando - 64x64_3
   - first:
-      213: -5902292130523666809
-    second: UIII_4
+      213: 3597167301296501035
+    second: Fantamasma_Andando - 64x64_4
   - first:
-      213: -1709172649491028762
-    second: UIII_5
+      213: -305042001707289359
+    second: Fantamasma_Andando - 64x64_5
   - first:
-      213: 4919772839054195388
-    second: UIII_6
+      213: 2345629403817424458
+    second: Fantamasma_Andando - 64x64_6
   - first:
-      213: -587333173636287542
-    second: UIII_7
+      213: -884343245757003359
+    second: Fantamasma_Andando - 64x64_7
   - first:
-      213: -8539309813666681884
-    second: UIII_8
+      213: 8092256438025975181
+    second: Fantamasma_Andando - 64x64_8
+  - first:
+      213: -5152892646575538287
+    second: Fantamasma_Andando - 64x64_9
+  - first:
+      213: 5817132984905802521
+    second: Fantamasma_Andando - 64x64_10
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -61,7 +67,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -99,7 +105,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -146,260 +152,247 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: UIII_0
+      name: Fantamasma_Andando - 64x64_0
       rect:
         serializedVersion: 2
-        x: 31
-        y: 775
-        width: 978
-        height: 210
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: dc704e3b645884300800000000000000
-      internalID: 236585519149221837
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UIII_1
-      rect:
-        serializedVersion: 2
-        x: 31
-        y: 527
-        width: 234
-        height: 234
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b808d9bf22dff5410800000000000000
-      internalID: 1468170330238189707
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UIII_2
-      rect:
-        serializedVersion: 2
-        x: 353
-        y: 601
-        width: 180
-        height: 166
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d7fa9956e36ed6e20800000000000000
-      internalID: 3345583253873078141
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UIII_3
-      rect:
-        serializedVersion: 2
-        x: 31
-        y: 150
-        width: 234
-        height: 363
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e7fc3daea003862f0800000000000000
-      internalID: -979480095505526914
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UIII_4
-      rect:
-        serializedVersion: 2
-        x: 327
-        y: 103
-        width: 250
-        height: 258
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 786ad873498d61ea0800000000000000
-      internalID: -5902292130523666809
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UIII_5
-      rect:
-        serializedVersion: 2
-        x: 591
-        y: 127
-        width: 90
-        height: 178
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6e42647e78cc748e0800000000000000
-      internalID: -1709172649491028762
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UIII_6
-      rect:
-        serializedVersion: 2
-        x: 679
-        y: 87
-        width: 90
-        height: 258
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cbab07fb45b864440800000000000000
-      internalID: 4919772839054195388
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UIII_7
-      rect:
-        serializedVersion: 2
-        x: 783
-        y: 71
-        width: 90
-        height: 298
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ac33b94279f59d7f0800000000000000
-      internalID: -587333173636287542
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UIII_8
-      rect:
-        serializedVersion: 2
-        x: 351
-        y: 23
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4ebe369b7f64e7980800000000000000
-      internalID: -8539309813666681884
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UIII_9
-      rect:
-        serializedVersion: 2
-        x: 542
-        y: 601
-        width: 174
-        height: 166
+        x: 19
+        y: 192
+        width: 23
+        height: 63
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: e7a122345ca2a524e9c59a72825234ae
-      internalID: -204717011
+      spriteID: af68a935ea0385720800000000000000
+      internalID: 2835069490714806010
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UIII_10
+      name: Fantamasma_Andando - 64x64_1
       rect:
         serializedVersion: 2
-        x: 723
-        y: 599
-        width: 181
-        height: 173
+        x: 24
+        y: 128
+        width: 16
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 2552a1ac340dbb548a8ba3a34afc3570
-      internalID: 1934011517
+      spriteID: 5b6d33c07cf832060800000000000000
+      internalID: 6927538736891942581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantamasma_Andando - 64x64_2
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 192
+        width: 20
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0caf21f1ac97efcd0800000000000000
+      internalID: -2522444832269206848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantamasma_Andando - 64x64_3
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 128
+        width: 17
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8da2d707c7ccebd0800000000000000
+      internalID: -2599483227255951986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantamasma_Andando - 64x64_4
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 192
+        width: 16
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b21bd671a94bbe130800000000000000
+      internalID: 3597167301296501035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantamasma_Andando - 64x64_5
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 128
+        width: 25
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f4b9a66ae544cbf0800000000000000
+      internalID: -305042001707289359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantamasma_Andando - 64x64_6
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 64
+        width: 13
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a46bf3dd3895d8020800000000000000
+      internalID: 2345629403817424458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantamasma_Andando - 64x64_7
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 64
+        width: 24
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a94321e08e2ab3f0800000000000000
+      internalID: -884343245757003359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantamasma_Andando - 64x64_8
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 0
+        width: 15
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d85f7e31b587d4070800000000000000
+      internalID: 8092256438025975181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantamasma_Andando - 64x64_9
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 64
+        width: 20
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19f742b607f3d78b0800000000000000
+      internalID: -5152892646575538287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantamasma_Andando - 64x64_10
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 2
+        width: 21
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 913a48811ab9ab050800000000000000
+      internalID: 5817132984905802521
       vertices: []
       indices: 
       edges: []
@@ -408,7 +401,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: b35f246dd5619bd449a280857921e4bb
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -418,17 +411,17 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      UIII_0: 236585519149221837
-      UIII_1: 1468170330238189707
-      UIII_10: 1934011517
-      UIII_2: 3345583253873078141
-      UIII_3: -979480095505526914
-      UIII_4: -5902292130523666809
-      UIII_5: -1709172649491028762
-      UIII_6: 4919772839054195388
-      UIII_7: -587333173636287542
-      UIII_8: -8539309813666681884
-      UIII_9: -204717011
+      Fantamasma_Andando - 64x64_0: 2835069490714806010
+      Fantamasma_Andando - 64x64_1: 6927538736891942581
+      Fantamasma_Andando - 64x64_10: 5817132984905802521
+      Fantamasma_Andando - 64x64_2: -2522444832269206848
+      Fantamasma_Andando - 64x64_3: -2599483227255951986
+      Fantamasma_Andando - 64x64_4: 3597167301296501035
+      Fantamasma_Andando - 64x64_5: -305042001707289359
+      Fantamasma_Andando - 64x64_6: 2345629403817424458
+      Fantamasma_Andando - 64x64_7: -884343245757003359
+      Fantamasma_Andando - 64x64_8: 8092256438025975181
+      Fantamasma_Andando - 64x64_9: -5152892646575538287
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
