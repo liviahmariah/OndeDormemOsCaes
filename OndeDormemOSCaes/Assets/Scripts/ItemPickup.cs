@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class ItemPickup : MonoBehaviour
 {
-    public GameObject itemVisualPrefab; // o ícone que vai pro HUD
+    public GameObject itemVisualPrefab;
 
     private void OnTriggerEnter2D(Collider2D other)
     {

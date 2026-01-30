@@ -861,7 +861,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1743452253}
         m_TargetAssemblyTypeName: LoseMenu, Assembly-CSharp
-        m_MethodName: VoltarMenu
+        m_MethodName: ReiniciarJogo
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
