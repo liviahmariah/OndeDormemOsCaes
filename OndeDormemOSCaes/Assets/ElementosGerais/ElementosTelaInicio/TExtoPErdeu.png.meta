@@ -1,10 +1,115 @@
 fileFormatVersion: 2
-guid: 3662cb5b086370a40beeec79818a2d22
+guid: 5f5ee3f3977da4b4ab0f0a901d0dda8a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3805149538144655327
-    second: "Transi\xE7\xE3o_Sub. para And. - 64x64_0"
+      213: 8346565270957540452
+    second: TExtoPErdeu_0
+  - first:
+      213: 7483026712269685362
+    second: TExtoPErdeu_1
+  - first:
+      213: -4777495866952615829
+    second: TExtoPErdeu_2
+  - first:
+      213: 2690298398411575612
+    second: TExtoPErdeu_3
+  - first:
+      213: -3150225420563802517
+    second: TExtoPErdeu_4
+  - first:
+      213: -269653947948170607
+    second: TExtoPErdeu_5
+  - first:
+      213: 8950401694132932987
+    second: TExtoPErdeu_6
+  - first:
+      213: 6906589044551778083
+    second: TExtoPErdeu_7
+  - first:
+      213: -6901172970985964514
+    second: TExtoPErdeu_8
+  - first:
+      213: -6550071549496919447
+    second: TExtoPErdeu_9
+  - first:
+      213: 5906906854109506658
+    second: TExtoPErdeu_10
+  - first:
+      213: -435120581974331066
+    second: TExtoPErdeu_11
+  - first:
+      213: 6753843344372076576
+    second: TExtoPErdeu_12
+  - first:
+      213: -2822356396050232655
+    second: TExtoPErdeu_13
+  - first:
+      213: -5770138078978328252
+    second: TExtoPErdeu_14
+  - first:
+      213: -189944743432945381
+    second: TExtoPErdeu_15
+  - first:
+      213: 8789064519049996238
+    second: TExtoPErdeu_16
+  - first:
+      213: 9093256207896928055
+    second: TExtoPErdeu_17
+  - first:
+      213: -8779831239682335637
+    second: TExtoPErdeu_18
+  - first:
+      213: 7602634606226268841
+    second: TExtoPErdeu_19
+  - first:
+      213: 782976838078039975
+    second: TExtoPErdeu_20
+  - first:
+      213: 1502669038249806965
+    second: TExtoPErdeu_21
+  - first:
+      213: 4203279468202947640
+    second: TExtoPErdeu_22
+  - first:
+      213: 2858844795745622175
+    second: TExtoPErdeu_23
+  - first:
+      213: -1069791194438367421
+    second: TExtoPErdeu_24
+  - first:
+      213: -4340846021207377369
+    second: TExtoPErdeu_25
+  - first:
+      213: 3803131054358154570
+    second: TExtoPErdeu_26
+  - first:
+      213: -3617529164049232822
+    second: TExtoPErdeu_27
+  - first:
+      213: 6785013725662878419
+    second: TExtoPErdeu_28
+  - first:
+      213: 1720913134627031211
+    second: TExtoPErdeu_29
+  - first:
+      213: -102650843025854162
+    second: TExtoPErdeu_30
+  - first:
+      213: 2554335839915974440
+    second: TExtoPErdeu_31
+  - first:
+      213: -7924356789522343505
+    second: TExtoPErdeu_32
+  - first:
+      213: 1033519393562560080
+    second: TExtoPErdeu_33
+  - first:
+      213: -3397094449176966136
+    second: TExtoPErdeu_34
+  - first:
+      213: 2025857033666206589
+    second: TExtoPErdeu_35
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +142,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -75,7 +180,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -96,53 +201,27 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WindowsStoreApps
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "Transi\xE7\xE3o_Sub. para And. - 64x64_0"
+      name: TExtoPErdeu_0
       rect:
         serializedVersion: 2
-        x: 13
-        y: 5
-        width: 39
-        height: 58
+        x: 4
+        y: 32
+        width: 196
+        height: 61
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: fd79a5a285b9ec430800000000000000
-      internalID: 3805149538144655327
+      spriteID: 9759b7b6ed640c746b5e954ffddd3b70
+      internalID: -1748913366
       vertices: []
       indices: 
       edges: []
@@ -151,7 +230,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: c9c37a0532926a14f97f3d323f7f25b4
     internalID: 0
     vertices: []
     indices: 
@@ -161,7 +240,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      "Transi\xE7\xE3o_Sub. para And. - 64x64_0": 3805149538144655327
+      TExtoPErdeu_0: -1748913366
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
