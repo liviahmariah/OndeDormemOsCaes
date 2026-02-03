@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: 242c8bc35cf2cd545b731c6a5b025ce1
+guid: 4ba6494aedfd6f64b8a6670899ba7ad6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6339161242507697768
-    second: Botaoinicio_0
+      213: -3466906523349614053
+    second: Onda_0
+  - first:
+      213: 3456433349833353287
+    second: Onda_1
+  - first:
+      213: -2540053655410427182
+    second: Onda_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +43,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -75,7 +81,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -126,23 +132,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Botaoinicio_0
+      name: Onda_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 140
-        height: 30
+        x: 1
+        y: 1
+        width: 57
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 891a76eaf66c608a0800000000000000
-      internalID: -6339161242507697768
+      spriteID: 31cf96295515a1048bc814aeac629e1d
+      internalID: 1472603600
       vertices: []
       indices: 
       edges: []
@@ -151,7 +157,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5844309bc800e1a43ad5d22069d8dd94
     internalID: 0
     vertices: []
     indices: 
@@ -161,7 +167,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Botaoinicio_0: -6339161242507697768
+      Onda_0: 1472603600
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

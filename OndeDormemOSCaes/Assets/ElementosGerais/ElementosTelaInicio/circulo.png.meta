@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 242c8bc35cf2cd545b731c6a5b025ce1
+guid: a9ddf5d46fc442b4eb204580b1613734
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6339161242507697768
-    second: Botaoinicio_0
+      213: -206701651332219563
+    second: circulo_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Botaoinicio_0
+      name: circulo_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 140
-        height: 30
+        x: 12
+        y: 11
+        width: 40
+        height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 891a76eaf66c608a0800000000000000
-      internalID: -6339161242507697768
+      spriteID: 55d3bd971f5a12df0800000000000000
+      internalID: -206701651332219563
       vertices: []
       indices: 
       edges: []
@@ -160,8 +160,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Botaoinicio_0: -6339161242507697768
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
