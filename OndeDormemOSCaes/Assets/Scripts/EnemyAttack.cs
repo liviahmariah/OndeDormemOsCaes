@@ -2,15 +2,22 @@
 
 public class EnemyAttack : MonoBehaviour
 {
+    [Header("Movimento")]
+    public float velocidade = 2f;
+    public float distanciaParar = 2.5f; // 👈 distância que ele PARA de andar
+
+    [Header("Ataque")]
     public float distanciaAtaque = 1.5f;
     public int dano = 1;
+    public float tempoEntreAtaques = 1f;
+
     public GameObject jumpscareUI;
 
     Transform player;
     PlayerHealth playerHealth;
 
     bool atacou = false;
-    bool jumpscareJaMostrado = false; // ✅ CONTROLA SE JÁ MOSTROU
+    bool jumpscareJaMostrado = false;
 
     void Start()
     {
@@ -28,28 +35,38 @@ public class EnemyAttack : MonoBehaviour
 
     void Update()
     {
-        if (player == null || atacou) return;
+        if (player == null) return;
 
         float distancia = Vector2.Distance(transform.position, player.position);
 
-        if (distancia <= distanciaAtaque)
+        // 🟡 MOVIMENTO: só se aproxima até certa distância
+        if (distancia > distanciaParar)
+        {
+            Aproximar();
+        }
+
+        // 🔴 ATAQUE
+        if (distancia <= distanciaAtaque && !atacou)
         {
             Atacar();
         }
+    }
+
+    void Aproximar()
+    {
+        Vector2 direcao = (player.position - transform.position).normalized;
+        transform.position += (Vector3)direcao * velocidade * Time.deltaTime;
     }
 
     void Atacar()
     {
         atacou = true;
 
-        Debug.Log("Inimigo atacou!");
-
         if (playerHealth != null)
         {
             playerHealth.TomarDano(dano);
         }
 
-        // ✅ MOSTRA JUMPSCARE SÓ NA PRIMEIRA VEZ
         if (!jumpscareJaMostrado && jumpscareUI != null)
         {
             jumpscareJaMostrado = true;
@@ -58,7 +75,7 @@ public class EnemyAttack : MonoBehaviour
         }
         else
         {
-            Invoke("ResetarAtaque", 1.0f);
+            Invoke("ResetarAtaque", tempoEntreAtaques);
         }
     }
 
