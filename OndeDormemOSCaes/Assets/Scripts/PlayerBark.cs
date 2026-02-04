@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class PlayerBark : MonoBehaviour
 {
-    public GameObject barkWavePrefab; // prefab da onda sonora
-    public Transform barkSpawnPoint;   // ponto de saída da onda
+    public GameObject barkWavePrefab;
+    public Transform barkSpawnPoint;
     public float barkCooldown = 1f;
 
     private bool canBark = true;
@@ -26,11 +26,9 @@ public class PlayerBark : MonoBehaviour
     {
         canBark = false;
 
-        // animação do latido
         if (anim != null)
             anim.SetTrigger("Bark");
 
-        // cria a onda sonora
         Instantiate(barkWavePrefab, barkSpawnPoint.position, Quaternion.identity);
 
         Invoke(nameof(ResetBark), barkCooldown);

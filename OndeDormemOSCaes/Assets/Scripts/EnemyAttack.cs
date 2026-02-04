@@ -2,22 +2,21 @@
 
 public class EnemyAttack : MonoBehaviour
 {
-    [Header("Movimento")]
-    public float velocidade = 2f;
-    public float distanciaParar = 2.5f; // 👈 distância que ele PARA de andar
-
     [Header("Ataque")]
-    public float distanciaAtaque = 1.5f;
+    public float distanciaAtaque = 1.8f;
     public int dano = 1;
-    public float tempoEntreAtaques = 1f;
+    public float tempoEntreAtaques = 1.2f;
 
+    [Header("Jumpscare")]
     public GameObject jumpscareUI;
 
-    Transform player;
-    PlayerHealth playerHealth;
+    [HideInInspector] public bool playerDetectado = false;
 
-    bool atacou = false;
-    bool jumpscareJaMostrado = false;
+    private Transform player;
+    private PlayerHealth playerHealth;
+
+    private bool podeAtacar = true;
+    private bool jumpscareJaMostrado = false;
 
     void Start()
     {
@@ -26,7 +25,7 @@ public class EnemyAttack : MonoBehaviour
         if (playerObj != null)
         {
             player = playerObj.transform;
-            playerHealth = playerObj.GetComponent<PlayerHealth>();
+            playerHealth = playerObj.GetComponentInChildren<PlayerHealth>();
         }
 
         if (jumpscareUI != null)
@@ -35,60 +34,49 @@ public class EnemyAttack : MonoBehaviour
 
     void Update()
     {
+        if (!playerDetectado) return;
+        if (!podeAtacar) return;
         if (player == null) return;
 
         float distancia = Vector2.Distance(transform.position, player.position);
 
-        // 🟡 MOVIMENTO: só se aproxima até certa distância
-        if (distancia > distanciaParar)
-        {
-            Aproximar();
-        }
-
-        // 🔴 ATAQUE
-        if (distancia <= distanciaAtaque && !atacou)
+        if (distancia <= distanciaAtaque)
         {
             Atacar();
         }
     }
 
-    void Aproximar()
-    {
-        Vector2 direcao = (player.position - transform.position).normalized;
-        transform.position += (Vector3)direcao * velocidade * Time.deltaTime;
-    }
-
     void Atacar()
     {
-        atacou = true;
+        podeAtacar = false;
 
+        Debug.Log("INIMIGO ATACOU");
+
+        // 👻 JUMPSCARE APENAS UMA VEZ
+        if (!jumpscareJaMostrado && jumpscareUI != null)
+        {
+            jumpscareJaMostrado = true;
+            jumpscareUI.SetActive(true);
+            Invoke(nameof(FecharJumpscare), 0.8f);
+        }
+
+        // 💔 DANO SEMPRE
         if (playerHealth != null)
         {
             playerHealth.TomarDano(dano);
         }
 
-        if (!jumpscareJaMostrado && jumpscareUI != null)
-        {
-            jumpscareJaMostrado = true;
-            jumpscareUI.SetActive(true);
-            Invoke("FecharJumpscare", 1.0f);
-        }
-        else
-        {
-            Invoke("ResetarAtaque", tempoEntreAtaques);
-        }
+        Invoke(nameof(ResetarAtaque), tempoEntreAtaques);
     }
 
     void FecharJumpscare()
     {
         if (jumpscareUI != null)
             jumpscareUI.SetActive(false);
-
-        ResetarAtaque();
     }
 
     void ResetarAtaque()
     {
-        atacou = false;
+        podeAtacar = true;
     }
 }
