@@ -1,16 +1,10 @@
 fileFormatVersion: 2
-guid: cfbf3c6813f89eb49b5d31c9ef5d0397
+guid: ec9e7458d2017aa4c92d319868d83100
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1135506762256886881
-    second: Sandy_IDLE - 64X64_0
-  - first:
-      213: 6550846289891363574
-    second: Sandy_IDLE - 64X64_1
-  - first:
-      213: -6140476016137385705
-    second: Sandy_IDLE - 64X64_2
+      213: 7459392896940189172
+    second: "Transi\xE7\xE3o_Des. para And. - 64x64_0"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -43,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -81,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -132,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Sandy_IDLE - 64X64_0
+      name: "Transi\xE7\xE3o_Des. para And. - 64x64_0"
       rect:
         serializedVersion: 2
-        x: 1
-        y: 72
-        width: 59
-        height: 48
+        x: 6
+        y: 3
+        width: 52
+        height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -147,52 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 16c2064526122cf00800000000000000
-      internalID: 1135506762256886881
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sandy_IDLE - 64X64_1
-      rect:
-        serializedVersion: 2
-        x: 67
-        y: 72
-        width: 58
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6fa09272ef749ea50800000000000000
-      internalID: 6550846289891363574
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sandy_IDLE - 64X64_2
-      rect:
-        serializedVersion: 2
-        x: 4
-        y: 8
-        width: 59
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7194352d895a8caa0800000000000000
-      internalID: -6140476016137385705
+      spriteID: 4f521367156158760800000000000000
+      internalID: 7459392896940189172
       vertices: []
       indices: 
       edges: []
@@ -210,10 +160,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Sandy_IDLE - 64X64_0: 1135506762256886881
-      Sandy_IDLE - 64X64_1: 6550846289891363574
-      Sandy_IDLE - 64X64_2: -6140476016137385705
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

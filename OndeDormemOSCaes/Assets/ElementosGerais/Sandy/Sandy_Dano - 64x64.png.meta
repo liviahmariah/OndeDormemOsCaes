@@ -1,31 +1,25 @@
 fileFormatVersion: 2
-guid: 0d4cfafb398de90448c6b164eba53d60
+guid: 598b263f9781e5749b23e50b4f812648
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7053104414213502264
-    second: Sandy_Subindo - 64x64_0
+      213: -519279116626205610
+    second: Sandy_Dano - 64x64_0
   - first:
-      213: 1092862524074234480
-    second: Sandy_Subindo - 64x64_1
+      213: 8724465119178142795
+    second: Sandy_Dano - 64x64_1
   - first:
-      213: 6836070133280232111
-    second: Sandy_Subindo - 64x64_2
+      213: 5396158026542567278
+    second: Sandy_Dano - 64x64_2
   - first:
-      213: -6275960155420337722
-    second: Sandy_Subindo - 64x64_3
+      213: -7773379535765486632
+    second: Sandy_Dano - 64x64_3
   - first:
-      213: 2947716131626074266
-    second: Sandy_Subindo - 64x64_4
+      213: 2837089807308892338
+    second: Sandy_Dano - 64x64_4
   - first:
-      213: 8448346182190883384
-    second: Sandy_Subindo - 64x64_5
-  - first:
-      213: 4789953010360711086
-    second: Sandy_Subindo - 64x64_6
-  - first:
-      213: -7685041749785825650
-    second: Sandy_Subindo - 64x64_7
+      213: 5577176243075157721
+    second: Sandy_Dano - 64x64_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -58,7 +52,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -96,19 +90,6 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: Standalone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -118,7 +99,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: Android
+    buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -160,13 +141,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Sandy_Subindo - 64x64_0
+      name: Sandy_Dano - 64x64_0
       rect:
         serializedVersion: 2
-        x: 17
-        y: 129
-        width: 30
-        height: 61
+        x: 2
+        y: 140
+        width: 58
+        height: 41
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -175,20 +156,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8ca801b77e65e1e90800000000000000
-      internalID: -7053104414213502264
+      spriteID: 654673a05662bc8f0800000000000000
+      internalID: -519279116626205610
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sandy_Subindo - 64x64_1
+      name: Sandy_Dano - 64x64_1
       rect:
         serializedVersion: 2
-        x: 79
-        y: 130
-        width: 34
-        height: 58
+        x: 66
+        y: 140
+        width: 58
+        height: 41
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -197,20 +178,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 07218c7eca0aa2f00800000000000000
-      internalID: 1092862524074234480
+      spriteID: b4436eb3dc6831970800000000000000
+      internalID: 8724465119178142795
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sandy_Subindo - 64x64_2
+      name: Sandy_Dano - 64x64_2
       rect:
         serializedVersion: 2
-        x: 142
-        y: 130
-        width: 36
-        height: 59
+        x: 0
+        y: 75
+        width: 57
+        height: 39
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -219,20 +200,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fa253d131999ede50800000000000000
-      internalID: 6836070133280232111
+      spriteID: e6f41f3922103ea40800000000000000
+      internalID: 5396158026542567278
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sandy_Subindo - 64x64_3
+      name: Sandy_Dano - 64x64_3
       rect:
         serializedVersion: 2
-        x: 15
-        y: 66
-        width: 34
-        height: 60
+        x: 130
+        y: 76
+        width: 58
+        height: 41
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -241,20 +222,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6c95aa77d7f47e8a0800000000000000
-      internalID: -6275960155420337722
+      spriteID: 8d348625f786f1490800000000000000
+      internalID: -7773379535765486632
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sandy_Subindo - 64x64_4
+      name: Sandy_Dano - 64x64_4
       rect:
         serializedVersion: 2
-        x: 81
-        y: 65
-        width: 30
-        height: 61
+        x: 66
+        y: 12
+        width: 58
+        height: 41
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -263,20 +244,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a90c24c343468e820800000000000000
-      internalID: 2947716131626074266
+      spriteID: 2b82780f52e5f5720800000000000000
+      internalID: 2837089807308892338
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sandy_Subindo - 64x64_5
+      name: Sandy_Dano - 64x64_5
       rect:
         serializedVersion: 2
-        x: 143
-        y: 66
-        width: 34
-        height: 59
+        x: 130
+        y: 12
+        width: 58
+        height: 41
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -285,52 +266,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 832e309671e8e3570800000000000000
-      internalID: 8448346182190883384
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sandy_Subindo - 64x64_6
-      rect:
-        serializedVersion: 2
-        x: 14
-        y: 2
-        width: 36
-        height: 59
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ea7fc5972e4597240800000000000000
-      internalID: 4789953010360711086
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sandy_Subindo - 64x64_7
-      rect:
-        serializedVersion: 2
-        x: 79
-        y: 2
-        width: 34
-        height: 60
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e8e28f3ee3f395590800000000000000
-      internalID: -7685041749785825650
+      spriteID: 9de0e327e3c166d40800000000000000
+      internalID: 5577176243075157721
       vertices: []
       indices: 
       edges: []
@@ -348,15 +285,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Sandy_Subindo - 64x64_0: -7053104414213502264
-      Sandy_Subindo - 64x64_1: 1092862524074234480
-      Sandy_Subindo - 64x64_2: 6836070133280232111
-      Sandy_Subindo - 64x64_3: -6275960155420337722
-      Sandy_Subindo - 64x64_4: 2947716131626074266
-      Sandy_Subindo - 64x64_5: 8448346182190883384
-      Sandy_Subindo - 64x64_6: 4789953010360711086
-      Sandy_Subindo - 64x64_7: -7685041749785825650
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

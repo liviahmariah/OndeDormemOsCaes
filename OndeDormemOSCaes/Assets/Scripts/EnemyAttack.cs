@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using System.Collections;
 
 public class EnemyAttack : MonoBehaviour
 {
@@ -18,6 +19,10 @@ public class EnemyAttack : MonoBehaviour
     private bool podeAtacar = true;
     private bool jumpscareJaMostrado = false;
 
+    // 🔴 PISCAR
+    private SpriteRenderer spriteRenderer;
+    private Color corOriginal;
+
     void Start()
     {
         GameObject playerObj = GameObject.FindGameObjectWithTag("Player");
@@ -30,6 +35,10 @@ public class EnemyAttack : MonoBehaviour
 
         if (jumpscareUI != null)
             jumpscareUI.SetActive(false);
+
+        spriteRenderer = GetComponent<SpriteRenderer>();
+        if (spriteRenderer != null)
+            corOriginal = spriteRenderer.color;
     }
 
     void Update()
@@ -52,7 +61,6 @@ public class EnemyAttack : MonoBehaviour
 
         Debug.Log("INIMIGO ATACOU");
 
-        // 👻 JUMPSCARE APENAS UMA VEZ
         if (!jumpscareJaMostrado && jumpscareUI != null)
         {
             jumpscareJaMostrado = true;
@@ -60,13 +68,28 @@ public class EnemyAttack : MonoBehaviour
             Invoke(nameof(FecharJumpscare), 0.8f);
         }
 
-        // 💔 DANO SEMPRE
         if (playerHealth != null)
         {
             playerHealth.TomarDano(dano);
         }
 
         Invoke(nameof(ResetarAtaque), tempoEntreAtaques);
+    }
+
+    // 🔴 CHAMADO PELO LATIDO
+    public void ReagirAoLatido()
+    {
+        if (spriteRenderer != null)
+        {
+            StartCoroutine(Piscar());
+        }
+    }
+
+    IEnumerator Piscar()
+    {
+        spriteRenderer.color = Color.white;
+        yield return new WaitForSeconds(0.1f);
+        spriteRenderer.color = corOriginal;
     }
 
     void FecharJumpscare()

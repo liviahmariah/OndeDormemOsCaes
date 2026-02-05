@@ -1,31 +1,31 @@
 fileFormatVersion: 2
-guid: 1616931c59fc0a44da983b35dbc631e4
+guid: d424b0283deeef64cb92808d527e54f3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8273764791820107407
-    second: Sandy_Descendo - 64x64_0
+      213: -1944862660251361589
+    second: Sandy_Subindo - 64x64 (1)_0
   - first:
-      213: 5229442591992802774
-    second: Sandy_Descendo - 64x64_1
+      213: -8040621730125378104
+    second: Sandy_Subindo - 64x64 (1)_1
   - first:
-      213: 8046117336133796540
-    second: Sandy_Descendo - 64x64_2
+      213: 5886876184266911361
+    second: Sandy_Subindo - 64x64 (1)_2
   - first:
-      213: 1545907244135442636
-    second: Sandy_Descendo - 64x64_3
+      213: -7066965234723605541
+    second: Sandy_Subindo - 64x64 (1)_3
   - first:
-      213: 5960546974366239573
-    second: Sandy_Descendo - 64x64_4
+      213: -1130074591133728849
+    second: Sandy_Subindo - 64x64 (1)_4
   - first:
-      213: -6169436573255289232
-    second: Sandy_Descendo - 64x64_5
+      213: 174656157311772781
+    second: Sandy_Subindo - 64x64 (1)_5
   - first:
-      213: -1275335777568341052
-    second: Sandy_Descendo - 64x64_6
+      213: -4510460223865786973
+    second: Sandy_Subindo - 64x64 (1)_6
   - first:
-      213: -7999695166096694179
-    second: Sandy_Descendo - 64x64_7
+      213: -670670034175314268
+    second: Sandy_Subindo - 64x64 (1)_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -58,7 +58,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -96,19 +96,6 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: Standalone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -118,7 +105,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: Android
+    buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -160,144 +147,56 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Sandy_Descendo - 64x64_0
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 130
-        width: 32
-        height: 60
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f8e329bed3152d270800000000000000
-      internalID: 8273764791820107407
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sandy_Descendo - 64x64_1
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 130
-        width: 32
-        height: 60
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6dd6705a456b29840800000000000000
-      internalID: 5229442591992802774
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sandy_Descendo - 64x64_2
-      rect:
-        serializedVersion: 2
-        x: 143
-        y: 130
-        width: 32
-        height: 59
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cb20e59461d89af60800000000000000
-      internalID: 8046117336133796540
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sandy_Descendo - 64x64_3
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 66
-        width: 32
-        height: 60
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cc8656ea27a247510800000000000000
-      internalID: 1545907244135442636
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sandy_Descendo - 64x64_4
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 66
-        width: 32
-        height: 60
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 55b012294ed18b250800000000000000
-      internalID: 5960546974366239573
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sandy_Descendo - 64x64_5
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 66
-        width: 32
-        height: 60
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 076b0daaf12c16aa0800000000000000
-      internalID: -6169436573255289232
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sandy_Descendo - 64x64_6
+      name: Sandy_Subindo - 64x64 (1)_0
       rect:
         serializedVersion: 2
         x: 17
-        y: 2
-        width: 32
+        y: 129
+        width: 30
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcedbcef6b57205e0800000000000000
+      internalID: -1944862660251361589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sandy_Subindo - 64x64 (1)_1
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 130
+        width: 34
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cd07923329f96090800000000000000
+      internalID: -8040621730125378104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sandy_Subindo - 64x64 (1)_2
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 130
+        width: 36
         height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -307,19 +206,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4c341b80ed81d4ee0800000000000000
-      internalID: -1275335777568341052
+      spriteID: 18eafe713b262b150800000000000000
+      internalID: 5886876184266911361
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sandy_Descendo - 64x64_7
+      name: Sandy_Subindo - 64x64 (1)_3
       rect:
         serializedVersion: 2
-        x: 80
-        y: 2
-        width: 32
+        x: 15
+        y: 66
+        width: 34
         height: 60
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -329,8 +228,96 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d54a56171af5bf090800000000000000
-      internalID: -7999695166096694179
+      spriteID: bd3b348bf881ded90800000000000000
+      internalID: -7066965234723605541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sandy_Subindo - 64x64 (1)_4
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 65
+        width: 30
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faf77c1952b2150f0800000000000000
+      internalID: -1130074591133728849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sandy_Subindo - 64x64 (1)_5
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 66
+        width: 34
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d68276689d08c6200800000000000000
+      internalID: 174656157311772781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sandy_Subindo - 64x64 (1)_6
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 2
+        width: 36
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ad63f6e250a761c0800000000000000
+      internalID: -4510460223865786973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sandy_Subindo - 64x64 (1)_7
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 2
+        width: 34
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a63b73482d41b6f0800000000000000
+      internalID: -670670034175314268
       vertices: []
       indices: 
       edges: []
@@ -348,15 +335,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Sandy_Descendo - 64x64_0: 8273764791820107407
-      Sandy_Descendo - 64x64_1: 5229442591992802774
-      Sandy_Descendo - 64x64_2: 8046117336133796540
-      Sandy_Descendo - 64x64_3: 1545907244135442636
-      Sandy_Descendo - 64x64_4: 5960546974366239573
-      Sandy_Descendo - 64x64_5: -6169436573255289232
-      Sandy_Descendo - 64x64_6: -1275335777568341052
-      Sandy_Descendo - 64x64_7: -7999695166096694179
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

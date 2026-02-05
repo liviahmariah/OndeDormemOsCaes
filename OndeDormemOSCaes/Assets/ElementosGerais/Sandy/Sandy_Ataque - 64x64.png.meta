@@ -1,25 +1,37 @@
 fileFormatVersion: 2
-guid: 9231e6faf252aa340ae5a42023359652
+guid: 67368fa32fa65644282fa3ec0f6a1c04
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1058214486936272516
-    second: Sandy_Andando - 64x64_0
+      213: 2704023281129942581
+    second: Sandy_Ataque - 64x64_0
   - first:
-      213: 2005117812795181405
-    second: Sandy_Andando - 64x64_1
+      213: -7827461134906755312
+    second: Sandy_Ataque - 64x64_1
   - first:
-      213: -8091610445299144732
-    second: Sandy_Andando - 64x64_2
+      213: -309271068261150290
+    second: Sandy_Ataque - 64x64_2
   - first:
-      213: -4407633919067605700
-    second: Sandy_Andando - 64x64_3
+      213: -4867146425477994227
+    second: Sandy_Ataque - 64x64_3
   - first:
-      213: 1087566888588961139
-    second: Sandy_Andando - 64x64_4
+      213: 5139023235574016667
+    second: Sandy_Ataque - 64x64_4
   - first:
-      213: -1058491047901728657
-    second: Sandy_Andando - 64x64_5
+      213: -1461638861741182404
+    second: Sandy_Ataque - 64x64_5
+  - first:
+      213: 7218232062944863745
+    second: Sandy_Ataque - 64x64_6
+  - first:
+      213: 4371152880765458775
+    second: Sandy_Ataque - 64x64_7
+  - first:
+      213: -8821212950998052214
+    second: Sandy_Ataque - 64x64_8
+  - first:
+      213: -849328061129654680
+    second: Sandy_Ataque - 64x64_9
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -52,7 +64,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -90,7 +102,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -141,13 +153,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Sandy_Andando - 64x64_0
+      name: Sandy_Ataque - 64x64_0
       rect:
         serializedVersion: 2
-        x: 6
-        y: 134
-        width: 55
-        height: 51
+        x: 15
+        y: 194
+        width: 34
+        height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -156,20 +168,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c71cdf1e7877051f0800000000000000
-      internalID: -1058214486936272516
+      spriteID: 53ee22009de968520800000000000000
+      internalID: 2704023281129942581
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sandy_Andando - 64x64_1
+      name: Sandy_Ataque - 64x64_1
       rect:
         serializedVersion: 2
-        x: 68
-        y: 134
-        width: 56
-        height: 49
+        x: 78
+        y: 194
+        width: 36
+        height: 60
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -178,20 +190,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d590774f60c93db10800000000000000
-      internalID: 2005117812795181405
+      spriteID: 017f4b8c1954f5390800000000000000
+      internalID: -7827461134906755312
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sandy_Andando - 64x64_2
+      name: Sandy_Ataque - 64x64_2
       rect:
         serializedVersion: 2
-        x: 1
-        y: 70
-        width: 61
-        height: 50
+        x: 142
+        y: 194
+        width: 36
+        height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,20 +212,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4e7aa13db23d4bf80800000000000000
-      internalID: -8091610445299144732
+      spriteID: ea11dfc1a9f35bbf0800000000000000
+      internalID: -309271068261150290
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sandy_Andando - 64x64_3
+      name: Sandy_Ataque - 64x64_3
       rect:
         serializedVersion: 2
-        x: 64
-        y: 70
-        width: 63
-        height: 51
+        x: 14
+        y: 130
+        width: 36
+        height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -222,20 +234,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c353302ad40f4d2c0800000000000000
-      internalID: -4407633919067605700
+      spriteID: d09629ffc1c647cb0800000000000000
+      internalID: -4867146425477994227
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sandy_Andando - 64x64_4
+      name: Sandy_Ataque - 64x64_4
       rect:
         serializedVersion: 2
-        x: 4
-        y: 7
-        width: 59
-        height: 49
+        x: 78
+        y: 130
+        width: 36
+        height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -244,20 +256,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 37562dfa250d71f00800000000000000
-      internalID: 1087566888588961139
+      spriteID: b9a2ed0b76a715740800000000000000
+      internalID: 5139023235574016667
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sandy_Andando - 64x64_5
+      name: Sandy_Ataque - 64x64_5
       rect:
         serializedVersion: 2
-        x: 69
-        y: 7
-        width: 57
-        height: 50
+        x: 143
+        y: 130
+        width: 34
+        height: 57
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -266,8 +278,96 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f60f2e3000c7f41f0800000000000000
-      internalID: -1058491047901728657
+      spriteID: c32b208033737bbe0800000000000000
+      internalID: -1461638861741182404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sandy_Ataque - 64x64_6
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 66
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 106e92241df4c2460800000000000000
+      internalID: 7218232062944863745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sandy_Ataque - 64x64_7
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 66
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75953fcb26479ac30800000000000000
+      internalID: 4371152880765458775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sandy_Ataque - 64x64_8
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 66
+        width: 35
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a829fafce81c49580800000000000000
+      internalID: -8821212950998052214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sandy_Ataque - 64x64_9
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 2
+        width: 35
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86e789ad0a49634f0800000000000000
+      internalID: -849328061129654680
       vertices: []
       indices: 
       edges: []
@@ -285,13 +385,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Sandy_Andando - 64x64_0: -1058214486936272516
-      Sandy_Andando - 64x64_1: 2005117812795181405
-      Sandy_Andando - 64x64_2: -8091610445299144732
-      Sandy_Andando - 64x64_3: -4407633919067605700
-      Sandy_Andando - 64x64_4: 1087566888588961139
-      Sandy_Andando - 64x64_5: -1058491047901728657
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

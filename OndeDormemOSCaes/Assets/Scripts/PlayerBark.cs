@@ -6,8 +6,8 @@ public class PlayerBark : MonoBehaviour
     public Transform barkSpawnPoint;
     public float barkCooldown = 1f;
 
-    private bool canBark = true;
-    private Animator anim;
+    bool canBark = true;
+    Animator anim;
 
     void Start()
     {
