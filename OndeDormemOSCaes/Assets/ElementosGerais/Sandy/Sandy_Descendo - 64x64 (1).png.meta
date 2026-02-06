@@ -335,7 +335,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Sandy_Descendo - 64x64 (1)_0: -6759885443208623033
+      Sandy_Descendo - 64x64 (1)_1: -2388339780372671883
+      Sandy_Descendo - 64x64 (1)_2: 8285049064936971984
+      Sandy_Descendo - 64x64 (1)_3: -7013259299779872590
+      Sandy_Descendo - 64x64 (1)_4: 6749600027368524232
+      Sandy_Descendo - 64x64 (1)_5: -5450826289283600833
+      Sandy_Descendo - 64x64 (1)_6: 72702568074066880
+      Sandy_Descendo - 64x64 (1)_7: -6087304059774199000
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

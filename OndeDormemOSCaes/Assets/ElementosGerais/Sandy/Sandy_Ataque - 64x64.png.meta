@@ -385,7 +385,17 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Sandy_Ataque - 64x64_0: 2704023281129942581
+      Sandy_Ataque - 64x64_1: -7827461134906755312
+      Sandy_Ataque - 64x64_2: -309271068261150290
+      Sandy_Ataque - 64x64_3: -4867146425477994227
+      Sandy_Ataque - 64x64_4: 5139023235574016667
+      Sandy_Ataque - 64x64_5: -1461638861741182404
+      Sandy_Ataque - 64x64_6: 7218232062944863745
+      Sandy_Ataque - 64x64_7: 4371152880765458775
+      Sandy_Ataque - 64x64_8: -8821212950998052214
+      Sandy_Ataque - 64x64_9: -849328061129654680
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

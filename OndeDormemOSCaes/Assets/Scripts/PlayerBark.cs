@@ -26,10 +26,19 @@ public class PlayerBark : MonoBehaviour
     {
         canBark = false;
 
+        // ANIMAÇÃO (visual)
         if (anim != null)
-            anim.SetTrigger("Bark");
+            anim.SetTrigger("isBarking");
 
-        Instantiate(barkWavePrefab, barkSpawnPoint.position, Quaternion.identity);
+        // GAMEPLAY (imediato)
+        if (barkWavePrefab != null && barkSpawnPoint != null)
+        {
+            Instantiate(
+                barkWavePrefab,
+                barkSpawnPoint.position,
+                barkSpawnPoint.rotation
+            );
+        }
 
         Invoke(nameof(ResetBark), barkCooldown);
     }

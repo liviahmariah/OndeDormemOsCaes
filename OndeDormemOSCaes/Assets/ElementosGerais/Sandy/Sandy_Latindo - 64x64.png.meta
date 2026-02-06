@@ -360,7 +360,16 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Sandy_Latindo - 64x64_0: 805255959736521888
+      Sandy_Latindo - 64x64_1: 3160737768629004576
+      Sandy_Latindo - 64x64_2: -8928938634190635687
+      Sandy_Latindo - 64x64_3: -5149757424202089118
+      Sandy_Latindo - 64x64_4: -7297956416685824665
+      Sandy_Latindo - 64x64_5: 4463404720132052050
+      Sandy_Latindo - 64x64_6: -824005235713718039
+      Sandy_Latindo - 64x64_7: 2150317314735268342
+      Sandy_Latindo - 64x64_8: 7804260318891289970
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

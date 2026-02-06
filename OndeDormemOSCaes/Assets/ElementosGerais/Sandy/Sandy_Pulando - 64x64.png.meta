@@ -335,7 +335,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Sandy_Pulando - 64x64_0: 9083469164283537550
+      Sandy_Pulando - 64x64_1: -4092879955179609315
+      Sandy_Pulando - 64x64_2: -882307558213857479
+      Sandy_Pulando - 64x64_3: 5236735737208150654
+      Sandy_Pulando - 64x64_4: 3692290521498573405
+      Sandy_Pulando - 64x64_5: -362148678308735770
+      Sandy_Pulando - 64x64_6: -2868071384383817355
+      Sandy_Pulando - 64x64_7: 6674789929844297276
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

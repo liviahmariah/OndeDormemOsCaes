@@ -285,7 +285,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Sandy_Dano - 64x64_0: -519279116626205610
+      Sandy_Dano - 64x64_1: 8724465119178142795
+      Sandy_Dano - 64x64_2: 5396158026542567278
+      Sandy_Dano - 64x64_3: -7773379535765486632
+      Sandy_Dano - 64x64_4: 2837089807308892338
+      Sandy_Dano - 64x64_5: 5577176243075157721
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

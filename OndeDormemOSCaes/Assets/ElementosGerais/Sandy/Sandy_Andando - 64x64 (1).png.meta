@@ -285,7 +285,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Sandy_Andando - 64x64 (1)_0: 9143480885158011354
+      Sandy_Andando - 64x64 (1)_1: -379302526504326864
+      Sandy_Andando - 64x64 (1)_2: -7552415161552496962
+      Sandy_Andando - 64x64 (1)_3: 3399057638787116410
+      Sandy_Andando - 64x64 (1)_4: 3087018207250754640
+      Sandy_Andando - 64x64 (1)_5: 8558562047914134460
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

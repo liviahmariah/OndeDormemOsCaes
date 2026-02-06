@@ -1,17 +1,20 @@
 using UnityEngine;
+using System.Collections;
 
 public class PlayerMovement : MonoBehaviour
 {
     public float speed = 5f;
-    public float jumpForce = 5f;
     public float jumpDuration = 0.3f;
 
     private Animator anim;
-    private bool isJumping = false;
+    private bool isJumping;
+
+    private Vector3 baseScale;
 
     void Start()
     {
         anim = GetComponent<Animator>();
+        baseScale = transform.localScale;
     }
 
     void Update()
@@ -19,59 +22,69 @@ public class PlayerMovement : MonoBehaviour
         float h = Input.GetAxisRaw("Horizontal");
         float v = Input.GetAxisRaw("Vertical");
 
-        Vector3 move = new Vector3(h, v, 0).normalized;
+        Vector2 move = new Vector2(h, v).normalized;
 
         if (!isJumping)
         {
-            transform.position += move * speed * Time.deltaTime;
+            transform.position += (Vector3)move * speed * Time.deltaTime;
         }
 
-        // Animações de movimento
-        anim.SetFloat("MoveX", h);
-        anim.SetFloat("MoveY", v);
-        anim.SetBool("IsMoving", move != Vector3.zero);
+        // ANDAR
+        anim.SetBool("isWalking", move != Vector2.zero);
 
-        // Flip esquerda/direita
+        // FLIP
         if (h != 0)
         {
-            transform.localScale = new Vector3(h > 0 ? 1 : -1, 1, 1);
+            transform.localScale = new Vector3(
+                Mathf.Sign(h) * Mathf.Abs(baseScale.x),
+                baseScale.y,
+                baseScale.z
+            );
         }
 
-        // Pulo
+        // PULO
         if (Input.GetKeyDown(KeyCode.Space) && !isJumping)
         {
             StartCoroutine(Jump());
         }
+
+        // LATIDO
+        if (Input.GetKeyDown(KeyCode.E) && !isJumping)
+        {
+            anim.SetTrigger("isBarking");
+        }
     }
 
-    private System.Collections.IEnumerator Jump()
+    IEnumerator Jump()
     {
         isJumping = true;
-        anim.SetTrigger("Jump");
+        anim.SetBool("isJumping", true);
 
         float elapsed = 0f;
-        Vector3 startScale = transform.localScale;
-        Vector3 jumpScale = new Vector3(startScale.x, 1.2f, 1f);
+        Vector3 jumpScale = new Vector3(
+            transform.localScale.x,
+            baseScale.y * 1.2f,
+            baseScale.z
+        );
 
-        // Sobe
         while (elapsed < jumpDuration / 2f)
         {
-            transform.localScale = Vector3.Lerp(startScale, jumpScale, elapsed / (jumpDuration / 2f));
+            transform.localScale = Vector3.Lerp(baseScale, jumpScale, elapsed / (jumpDuration / 2f));
             elapsed += Time.deltaTime;
             yield return null;
         }
 
         elapsed = 0f;
 
-        // Desce
         while (elapsed < jumpDuration / 2f)
         {
-            transform.localScale = Vector3.Lerp(jumpScale, startScale, elapsed / (jumpDuration / 2f));
+            transform.localScale = Vector3.Lerp(jumpScale, baseScale, elapsed / (jumpDuration / 2f));
             elapsed += Time.deltaTime;
             yield return null;
         }
 
-        transform.localScale = startScale;
+        transform.localScale = baseScale;
+        anim.SetBool("isJumping", false);
         isJumping = false;
     }
 }
