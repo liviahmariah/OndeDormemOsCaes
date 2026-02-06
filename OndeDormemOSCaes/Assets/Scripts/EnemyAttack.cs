@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
-using System.Collections;
 
+[RequireComponent(typeof(AudioSource))]
 public class EnemyAttack : MonoBehaviour
 {
     [Header("Ataque")]
@@ -10,6 +10,8 @@ public class EnemyAttack : MonoBehaviour
 
     [Header("Jumpscare")]
     public GameObject jumpscareUI;
+    public AudioClip jumpscareSound;
+    public float jumpscareVolume = 1f;
 
     [HideInInspector] public bool playerDetectado = false;
 
@@ -19,9 +21,15 @@ public class EnemyAttack : MonoBehaviour
     private bool podeAtacar = true;
     private bool jumpscareJaMostrado = false;
 
-    // 🔴 PISCAR
-    private SpriteRenderer spriteRenderer;
-    private Color corOriginal;
+    private AudioSource audioSource;
+
+    void Awake()
+    {
+        audioSource = GetComponent<AudioSource>();
+        audioSource.playOnAwake = false;
+        audioSource.spatialBlend = 0f; // áudio 2D
+        audioSource.ignoreListenerPause = true;
+    }
 
     void Start()
     {
@@ -35,10 +43,6 @@ public class EnemyAttack : MonoBehaviour
 
         if (jumpscareUI != null)
             jumpscareUI.SetActive(false);
-
-        spriteRenderer = GetComponent<SpriteRenderer>();
-        if (spriteRenderer != null)
-            corOriginal = spriteRenderer.color;
     }
 
     void Update()
@@ -59,15 +63,30 @@ public class EnemyAttack : MonoBehaviour
     {
         podeAtacar = false;
 
-        Debug.Log("INIMIGO ATACOU");
-
+        // 👻 JUMPSCARE (SÓ UMA VEZ NO JOGO)
         if (!jumpscareJaMostrado && jumpscareUI != null)
         {
             jumpscareJaMostrado = true;
+
             jumpscareUI.SetActive(true);
-            Invoke(nameof(FecharJumpscare), 0.8f);
+
+            if (jumpscareSound != null)
+            {
+                audioSource.Stop();
+                audioSource.clip = jumpscareSound;
+                audioSource.volume = jumpscareVolume;
+                audioSource.Play();
+
+                // fecha quando o áudio acabar
+                Invoke(nameof(FecharJumpscare), jumpscareSound.length);
+            }
+            else
+            {
+                Invoke(nameof(FecharJumpscare), 1f);
+            }
         }
 
+        // ⚠️ DANO NORMAL (continua funcionando depois)
         if (playerHealth != null)
         {
             playerHealth.TomarDano(dano);
@@ -76,26 +95,13 @@ public class EnemyAttack : MonoBehaviour
         Invoke(nameof(ResetarAtaque), tempoEntreAtaques);
     }
 
-    // 🔴 CHAMADO PELO LATIDO
-    public void ReagirAoLatido()
-    {
-        if (spriteRenderer != null)
-        {
-            StartCoroutine(Piscar());
-        }
-    }
-
-    IEnumerator Piscar()
-    {
-        spriteRenderer.color = Color.white;
-        yield return new WaitForSeconds(0.1f);
-        spriteRenderer.color = corOriginal;
-    }
-
     void FecharJumpscare()
     {
         if (jumpscareUI != null)
             jumpscareUI.SetActive(false);
+
+        // NÃO reseta jumpscareJaMostrado
+        // ele fica true pra sempre
     }
 
     void ResetarAtaque()
