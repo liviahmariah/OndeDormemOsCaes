@@ -6,12 +6,17 @@ public class PlayerBark : MonoBehaviour
     public Transform barkSpawnPoint;
     public float barkCooldown = 1f;
 
+    public AudioClip barkSound;
+    public float barkVolume = 0.8f;
+
     bool canBark = true;
     Animator anim;
+    AudioSource audioSource;
 
     void Start()
     {
         anim = GetComponent<Animator>();
+        audioSource = GetComponent<AudioSource>();
     }
 
     void Update()
@@ -30,6 +35,13 @@ public class PlayerBark : MonoBehaviour
         if (anim != null)
             anim.SetTrigger("isBarking");
 
+        // 🔊 SOM DO LATIDO
+        if (audioSource != null && barkSound != null)
+        {
+            audioSource.PlayOneShot(barkSound, barkVolume);
+        }
+
+        // GAMEPLAY
         if (barkWavePrefab != null && barkSpawnPoint != null)
         {
             GameObject bark = Instantiate(
@@ -38,7 +50,6 @@ public class PlayerBark : MonoBehaviour
                 Quaternion.identity
             );
 
-            // 🔁 FAZ O LATIDO VIRAR JUNTO COM O PLAYER
             Vector3 scale = bark.transform.localScale;
             scale.x = Mathf.Sign(transform.localScale.x) * Mathf.Abs(scale.x);
             bark.transform.localScale = scale;
