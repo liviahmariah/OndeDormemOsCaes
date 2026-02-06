@@ -2,28 +2,24 @@ using UnityEngine;
 
 public class BarkWave : MonoBehaviour
 {
-    public float radius = 4f;
-    public float duration = 0.3f;
+    public float knockbackForce = 6f;
+    public float lifeTime = 0.3f;
 
     void Start()
     {
-        AfetarInimigos();
-        Destroy(gameObject, duration);
+        Destroy(gameObject, lifeTime);
     }
 
-    void AfetarInimigos()
+    void OnTriggerEnter2D(Collider2D other)
     {
-        Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, radius);
-
-        foreach (Collider2D hit in hits)
+        if (other.CompareTag("Enemy"))
         {
-            if (hit.CompareTag("Enemy"))
+            Rigidbody2D rb = other.GetComponent<Rigidbody2D>();
+
+            if (rb != null)
             {
-                EnemyAttack enemy = hit.GetComponent<EnemyAttack>();
-                if (enemy != null)
-                {
-                    enemy.ReagirAoLatido();
-                }
+                Vector2 dir = (other.transform.position - transform.position).normalized;
+                rb.AddForce(dir * knockbackForce, ForceMode2D.Impulse);
             }
         }
     }

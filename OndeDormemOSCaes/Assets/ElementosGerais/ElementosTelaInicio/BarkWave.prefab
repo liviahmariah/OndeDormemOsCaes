@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4582821907008364543}
   - component: {fileID: 1300616911819711142}
   - component: {fileID: 5597280684402414605}
+  - component: {fileID: -239504910103588018}
   m_Layer: 0
   m_Name: BarkWave
   m_TagString: Untagged
@@ -78,7 +79,7 @@ SpriteRenderer:
   m_SortingLayerID: -820522763
   m_SortingLayer: 1
   m_SortingOrder: 10
-  m_Sprite: {fileID: -3244713723144969497, guid: b6eb6a6a706021140805b1bde7d07e56, type: 3}
+  m_Sprite: {fileID: 6970539256597558962, guid: 8dec623017edc744fbf6cb219a829195, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -137,5 +138,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 241c5e58c506ebc4ebdaf2c8e026b956, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  radius: 5
-  duration: 0.3
+  knockbackForce: 6
+  lifeTime: 0.3
+--- !u!50 &-239504910103588018
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6951331208348555944}
+  m_BodyType: 1
+  m_Simulated: 0
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0

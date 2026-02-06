@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 public class PlayerBark : MonoBehaviour
 {
@@ -26,18 +26,22 @@ public class PlayerBark : MonoBehaviour
     {
         canBark = false;
 
-        // ANIMA��O (visual)
+        // ANIMAÇÃO
         if (anim != null)
             anim.SetTrigger("isBarking");
 
-        // GAMEPLAY (imediato)
         if (barkWavePrefab != null && barkSpawnPoint != null)
         {
-            Instantiate(
+            GameObject bark = Instantiate(
                 barkWavePrefab,
                 barkSpawnPoint.position,
-                barkSpawnPoint.rotation
+                Quaternion.identity
             );
+
+            // 🔁 FAZ O LATIDO VIRAR JUNTO COM O PLAYER
+            Vector3 scale = bark.transform.localScale;
+            scale.x = Mathf.Sign(transform.localScale.x) * Mathf.Abs(scale.x);
+            bark.transform.localScale = scale;
         }
 
         Invoke(nameof(ResetBark), barkCooldown);
